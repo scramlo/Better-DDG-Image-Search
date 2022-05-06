@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Better DuckDuckGo Image Search",
-    "version": "1.0",
+    "version": "1.1",
     "description": "DuckDuckGo images are too small on their search gallery. This makes them bigger.",
     "icons": {
         "48": "icon.svg"
@@ -9,7 +9,7 @@
     "content_scripts": [
         {
             "matches": [
-                "*://*.duckduckgo.com/*&iax=images&ia=images*"
+                "*://*.duckduckgo.com/*"
             ],
             "js": [
                 "betterGallery.js"
