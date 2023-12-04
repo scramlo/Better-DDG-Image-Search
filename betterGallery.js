@@ -22,7 +22,8 @@ styles.innerHTML = `
 
     .detail__media__img-link.js-detail-img.js-image-detail-link,
     .detail__media__img-highres.js-detail-img.js-detail-img-high,
-    .detail__media__img-thumbnail.js-detail-img.js-detail-img-thumb
+    .detail__media__img-thumbnail.js-detail-img.js-detail-img-thumb,
+    .detail__media__img-bg, .js-detail-img, .js-detail-img-bg
     {
         height: auto !important;
         width: 100% !important;
