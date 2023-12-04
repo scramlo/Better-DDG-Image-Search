@@ -26,6 +26,7 @@ styles.innerHTML = `
     {
         height: auto !important;
         width: 100% !important;
+        object-fit: contain !important;
     }
 
     .detail__close.js-detail-close {
